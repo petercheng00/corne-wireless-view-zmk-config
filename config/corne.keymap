@@ -43,13 +43,13 @@
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// | ESC |  +  |  -  |  =  |  _  |     |   |     |      |  UP  |       |     |     |
+// | ESC |  +  |  =  |  -  |  _  |     |   |     |      |  UP  |       |     |     |
 // | DEL |  [  |  ]  |  {  |  }  |     |   |     | LEFT | DOWN | RIGHT |     |     |
 // | GUI |  ~  |  `  |     |     |     |   |     |      |      |       |     |     |
 //                   |     |     |     |   |     |      |      |
                         label = "Raise";
                         bindings = <
-   &kp ESC  &kp PLUS  &kp MINUS &kp EQUAL &kp UNDER &trans   &trans &trans   &kp UP   &trans    &trans &trans
+   &kp ESC  &kp PLUS  &kp EQUAL &kp MINUS &kp UNDER &trans   &trans &trans   &kp UP   &trans    &trans &trans
    &kp DEL  &kp LBKT  &kp RBKT  &kp LBRC  &kp RBRC  &trans   &trans &kp LEFT &kp DOWN &kp RIGHT &trans &trans
    &kp LGUI &kp TILDE &kp GRAVE &trans    &trans    &trans   &trans &trans   &trans   &trans    &trans &trans
                     	        &trans    &trans    &trans   &trans &trans   &trans
